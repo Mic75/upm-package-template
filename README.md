@@ -46,9 +46,9 @@ Package development works best within the Unity Editor.  Here's how to set that 
 
 1. Fork the `upm-package-template` repository
 
-    Forking a repository is a simple two-step process. On GitHub, navigate to the [UnityTech/upm-package-template](https://github.com/UnityTech/upm-package-template) repository.
+    Forking a repository is a simple two-step process. On GitHub, navigate to the [Unity-Technologies/upm-package-template](https://github.com/Unity-Technologies/upm-package-template) repository.
     Click on the **Fork** button at the top-right corner of the page, and follow the instructions.
-    That's it! You now have your own copy (fork) of the original `UnityTech/upm-package-template` repository you can use to develop your package.
+    That's it! You now have your own copy (fork) of the original `Unity-Technologies/upm-package-template` repository you can use to develop your package.
 
     Naming convention for your repository: `upm-package-[your package name]`
     (Example: `upm-package-terrain-builder`)
@@ -61,7 +61,7 @@ Package development works best within the Unity Editor.  Here's how to set that 
 1. In a console (or terminal) application, go to the newly created project folder, then clone your newly forked repository into the packages directory.
     ```none
     cd <YourProjectPath>/UnityPackageManager
-    git clone git@github.com:UnityTech/upm-package-[your package name].git com.unity.[your package name]
+    git clone git@github.com:Unity-Technologies/upm-package-[your package name].git com.unity.[your package name]
     ```
     __Note:__ Your directory name must be the name of your package (Example: `"com.unity.terrain-builder"`)
 1. Fill in your package information in file **package.json**
@@ -117,7 +117,7 @@ Package development works best within the Unity Editor.  Here's how to set that 
     ###### Document your public APIs
 
     * All public APIs need to be documented with XmlDoc.  If you dont need an API to be accessed by clients, mark it as internal instead.
-    * API documentation is generated from [XmlDoc tags](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) included with all public APIs found in the package. See [Editor/EditorExample.cs](https://github.com/UnityTech/upm-package-template/blob/master/Editor/EditorExample.cs) for an example.
+    * API documentation is generated from [XmlDoc tags](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) included with all public APIs found in the package. See [Editor/EditorExample.cs](https://github.com/Unity-Technologies/upm-package-template/blob/master/Editor/EditorExample.cs) for an example.
 
     ###### Document your features
 
@@ -154,7 +154,7 @@ If you want to share your project with other developers, the steps are similar t
 
     ```none
     cd <YourProjectPath>/UnityPackageManager
-    git clone git@github.com:UnityTech/upm-package-[your package name].git com.unity.[your package name]
+    git clone git@github.com:Unity-Technologies/upm-package-[your package name].git com.unity.[your package name]
     ```
     __Note:__ Your directory name must be the name of your package (Example: `"com.unity.terrain-builder"`)
 
